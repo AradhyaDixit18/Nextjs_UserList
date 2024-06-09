@@ -1,34 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js User List App
+
+This is a simple web application built with Next.js that fetches data from a public API and displays it in a user-friendly manner. The application implements server-side rendering (SSR) and includes responsive and interactive user interfaces.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js installed on your machine
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone <repository-url>
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd nextjs-user-list-app
+   ```
+
+3. Install dependencies using npm or yarn:
+
+   ```bash
+   npm install
+   ```
+
+   or
+
+   ```bash
+   yarn install
+   ```
+
+### Running the App
+
+To run the application locally, use the following command:
 
 ```bash
 npm run dev
-# or
+```
+
+or
+
+```bash
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The application will be running at [http://localhost:3000](http://localhost:3000) by default.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Making the Code Responsive
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+The code is designed to be responsive using Material-UI components and custom styling. It adjusts to different screen sizes for better user experience.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Additional Notes
 
-## Learn More
+- The application fetches data from a public API (JSONPlaceholder) to display a list of users.
+- It includes a search bar for filtering users based on user input.
+- Server-side rendering (SSR) is implemented for improved performance and SEO.
 
-To learn more about Next.js, take a look at the following resources:
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This README provides clear instructions on how to set up and run the project locally, along with additional information about the folder structure, responsiveness, and additional notes about the application.
